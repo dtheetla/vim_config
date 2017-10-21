@@ -1,0 +1,40 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'kien/ctrlp.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'pangloss/vim-javascript'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-rails'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'othree/html5.vim'
+Plugin 'elzr/vim-json'
+Plugin 'powerline/powerline'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'ngmy/vim-rubocop'
+Plugin 'beautify-web/js-beautify'
+Plugin 'szw/vim-maximizer'
+Plugin 'leafgarland/typescript-vim'
+call vundle#end()            " required
+syntax on
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+filetype plugin indent on
+:set mouse=a
+let g:NERDTreeMouseMode=3 
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
+map  <C-T> :NERDTree
+map  <C-u> :u
+set number
+set clipboard=unnamedplus
+colorscheme slate
