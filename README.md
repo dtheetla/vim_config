@@ -2,7 +2,7 @@
 basic .vimrc config for development
 
 
-Basic packages for web developmen using Rails, javascript and Typescript.
+Basic packages for web development using Rails, javascript and Typescript.
 
 
 copy vimrc.txt to ~/.vimrc
